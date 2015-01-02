@@ -10,7 +10,7 @@ A starter leiningen project for http://dunaj.org[Dunaj]
 
 == Usage
 
-. Clone this repository with `git clone https://github.com/dunaj-project/dunaj.git`
+. Clone this repository with `git clone https://github.com/dunaj-project/dunaj-starter.git`
 . Run REPL with `lein repl`
 . In REPL, eval `(dunaj!)` to start working with Dunaj
 
@@ -33,6 +33,8 @@ To use Dunaj in your sources, use `:api` ns declaration:
 
 (foo "World")
 --
+
+See http://dunaj.org[Dunaj homepage] for documentation and examples.
 
 == License
 
