@@ -1,6 +1,6 @@
 = dunaj-starter
 
-A starter leiningen project for http://dunaj.org[Dunaj]
+A starter leiningen project for http://www.dunaj.org[Dunaj]
 
 == Requirements
 
@@ -19,7 +19,7 @@ To use Dunaj in your sources, use `:api` ns declaration:
 [source,clojure,linesnum]
 --
 (ns dunaj-starter.core
-  "See http://dunaj.org for documentation and examples"
+  "See http://www.dunaj.org for documentation and examples"
   (:api dunaj))
 
 (defn bar :- String
@@ -34,7 +34,7 @@ To use Dunaj in your sources, use `:api` ns declaration:
 (foo "World")
 --
 
-See http://dunaj.org[Dunaj homepage] for documentation and examples.
+See http://www.dunaj.org[Dunaj homepage] for documentation and examples.
 
 == License
 

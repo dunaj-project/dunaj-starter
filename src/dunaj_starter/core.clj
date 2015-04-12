@@ -1,5 +1,5 @@
 (ns dunaj-starter.core
-  "See http://dunaj.org for documentation and examples"
+  "See http://www.dunaj.org for documentation and examples"
   (:api dunaj))
 
 (defn bar :- String
