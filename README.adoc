@@ -1,17 +1,17 @@
 = dunaj-starter
 
-A starter leiningen project for http://www.dunaj.org[Dunaj]
+A starter leiningen and boot project for http://www.dunaj.org[Dunaj]
 
 == Requirements
 
 * Oracle JDK 8
-* Leiningen
+* Leiningen or Boot (2.1.3 or later)
 * Git
 
 == Usage
 
 . Clone this repository with `git clone https://github.com/dunaj-project/dunaj-starter.git`
-. Run REPL with `lein repl`
+. Run REPL with `lein repl` or `./boot repl`
 . In REPL, eval `(dunaj!)` to start working with Dunaj
 
 To use Dunaj in your sources, use `:api` ns declaration:
@@ -19,7 +19,7 @@ To use Dunaj in your sources, use `:api` ns declaration:
 [source,clojure,linesnum]
 --
 (ns dunaj-starter.core
-  "See http://www.dunaj.org for documentation and examples"
+  "See http://www.dunaj.org for documentation and examples."
   (:api dunaj))
 
 (defn bar :- String
